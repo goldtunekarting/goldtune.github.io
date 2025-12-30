@@ -8,46 +8,78 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 20px;
 }
 
 .container {
     background: white;
-    padding: 2rem;
+    padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    max-width: 600px;
+    max-width: 800px;
+    width: 100%;
     text-align: center;
 }
 
-.hero-image {
-    width: 100%;
-    height: auto;
+/* Flexbox Row for Images */
+.image-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+
+.side-image {
+    width: 50%;
+    height: 300px; /* Fixed height for alignment */
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+    object-fit: cover; /* Crops image to fit the box without stretching */
+    display: block;
 }
 
 h1 {
     color: #1a1a1a;
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 .services {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #555;
 }
 
 .contact-box {
-    background: #e9ecef;
-    padding: 10px;
-    border-radius: 6px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.contact-box p {
+    margin: 0;
+    font-weight: 500;
 }
 
 .contact-box a {
-    color: #007bff;
+    color: #d32f2f; /* Racing red color */
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact-box a:hover {
     text-decoration: underline;
+}
+
+/* Responsive adjustment for phones */
+@media (max-width: 600px) {
+    .image-row {
+        flex-direction: column;
+    }
+    .side-image {
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        padding: 1.5rem;
+    }
 }
