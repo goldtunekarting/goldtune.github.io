@@ -84,10 +84,11 @@ h1 {
     }
     /* Ensures the single gallery image scales to fit the container */
 .hero-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 100%;       /* Forces image to match the width of the white box */
+    max-width: 600px;  /* Prevents it from getting too large on big screens */
+    height: auto;      /* Maintains the correct proportions */
     display: block;
-    margin: 0 auto 1.5rem auto;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
     }
 }
