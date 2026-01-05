@@ -82,4 +82,12 @@ h1 {
     .container {
         padding: 1.5rem;
     }
+    /* Ensures the single gallery image scales to fit the container */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    }
 }
