@@ -82,13 +82,12 @@ h1 {
     .container {
         padding: 1.5rem;
     }
-    /* Ensures the single gallery image scales to fit the container */
+}
 .hero-image {
     width: 100%;       /* Forces image to match the width of the white box */
-    max-width: 300px;  /* Prevents it from getting too large on big screens */
+    max-width: 600px;  /* Prevents it from getting too large on big screens */
     height: auto;      /* Maintains the correct proportions */
     display: block;
     margin: 0 auto 20px auto;
     border-radius: 8px;
     }
-}
