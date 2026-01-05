@@ -91,3 +91,31 @@ h1 {
     margin: 0 auto 20px auto;
     border-radius: 8px;
     }
+
+/* Styling for long-form text pages */
+.text-content h3 {
+    margin-top: 2rem;
+    color: #1a1a1a;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.text-content h4 {
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+.text-content p {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    text-align: justify;
+}
+
+.text-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+}
+
+.text-content li {
+    margin-bottom: 10px;
+}
