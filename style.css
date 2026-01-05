@@ -85,7 +85,7 @@ h1 {
 }
 .hero-image {
     width: 100%;       /* Forces image to match the width of the white box */
-    max-width: 720px;  /* Prevents it from getting too large on big screens */
+ /*   max-width: 720px; */ /* Prevents it from getting too large on big screens */
     height: auto;      /* Maintains the correct proportions */
     display: block;
     margin: 0 auto 20px auto;
