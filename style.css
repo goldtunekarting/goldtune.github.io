@@ -29,7 +29,7 @@ body {
 }
 
 .side-image {
-    width: 50%;
+    width: 80%;
     height: 300px; /* Fixed height for alignment */
     border-radius: 8px;
     object-fit: cover; /* Crops image to fit the box without stretching */
@@ -80,7 +80,7 @@ h1 {
         height: auto;
     }
     .container {
-        padding: 2.5rem;
+        padding: 1.5rem;
     }
 }
 .hero-image {
